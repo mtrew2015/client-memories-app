@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://memories-project-50.herokuapp.com/posts';
+const url = 'https://memories-project-50.herokuapp.com/posts';
 
 export const fetchPosts = () => axios.get(url);
 
